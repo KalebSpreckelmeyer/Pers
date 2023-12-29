@@ -60,6 +60,9 @@ span{
 .stickyNavBar a:hover{
     color: #001D26;
 }
+.stickyNavBar a{
+    text-decoration: none;
+}
 /* This div offests the rest of the content under the header
 so the header won't cover it */
 .offSetBody{
@@ -75,7 +78,7 @@ so the header won't cover it */
     justify-content: center;
     align-items: center;
     background-color: #F2F6FF;
-    padding: 10rem 0rem;
+    padding: 6rem 0rem;
     width: 90%;
     height: 50%;
     border-radius: 1rem;
@@ -149,7 +152,36 @@ progress {
     border-radius: 7px;
   }
 /* projects section */
-
+/* next time plan this out better and make a general style that applies to
+both places instead of copying and pasting it */
+.projectContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 90%;
+    height: 30rem;
+    margin: 0 auto;
+}
+.projectItem{
+    background-color: #F2F6FF;
+    border-radius: 5%;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.projectItem img{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 5%;
+}
+.projectItem h3{
+    color: #4395EF;
+}
 /* about exerpt section */
 
 /* contact section */
