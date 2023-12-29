@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <head>
     <link href="./style.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -6,121 +7,140 @@
 </head>
 
 <body>
-    <nav class="stickNavBar">
+    <nav class="stickyNavBar">
+        <a class="leftName">Kaleb Spreckelmeyer</a>
         <ul>
-            <li>Kaleb Spreckelmeyer</li>
-            <li><a href="">Home</a></li>
-            <li><a href="">Education</a></li>
-            <li><a href="">Skills</a></li>
-            <li><a href="">Projects</a></li>
-            <li><a href="">About Me</a></li>
-            <li><a href="">Contact Me</a></li>
+            <li><a>Home</a></li>
+            <li><a>Education</a></li>
+            <li><a>Skills</a></li>
+            <li><a>Projects</a></li>
+            <li><a>About Me</a></li>
+            <li><a>Contact Me</a></li>
+            <br/>
         </ul>
     </nav>
-
-    <div class="introSection">
-        <h1>Hi, <br /> I'm Kaleb</h1>
-        <img class="circleImage" src="" alt="Image of Kaleb"/>
-    </div>
-
-    <div class="educationSection">
-        <h2><hr class="divider"/>Education<hr class="divider"/></h2>
-        <div class="exampleContainer">
-            <div class="exampleItem">
-                <h3>JRT High School</h3>
-                <img src="" alt="JRT High"/>
-                <h4>Completed</h4>
-            </div>
-            <div class="exampleItem">
-                <h3>Reynolds Community College</h3>
-                <img src="" alt="JRT High"/>
-                <h4>Completed</h4>
-            </div>
-            <div class="exampleItem">
-                <h3>Missouri Science and Technology</h3>
-                <img src="" alt="JRT High"/>
-                <h4>Applied</h4>
-            </div>
+    <!-- This div offests the rest of the content so the 
+    header doesn't cover the top of it -->
+    <div class="offSetBody">
+        <div class="introSection">
+            <h1>Hi, <br /> I'm Kaleb</h1>
+            <img class="circleImage" src="./images/cropped cat.png" alt="Image of Kaleb" />
         </div>
-    </div>
-
-    <div class="skillsSection">
-        <h2><hr class="divider"/>Skills<hr class="divider"/></h2>
-        <div class="skillBox">
-            <div class="skillItem">
-                <label for="html">HTML</label>
-                <label for="html">60%</label>
-            </div>
-            <progress id="html" max="100" value="60">60%</progress>
-        </div>
-        <div class="skillBox">
-            <div class="skillItem">
-                <label for="css">CSS</label>
-                <label for="css">40%</label>
-            </div>
-            <progress id="css" max="100" value="40">40%</progress>
-        </div>
-        <div class="skillBox">
-            <div class="skillItem">
-                <label for="javaScript">JavaScript</label>
-                <label for="javaScript">10%</label>
-            </div>
-            <progress id="javaScript" max="100" value="10">10%</progress>
-        </div>
-        <div class="skillBox">
-            <div class="skillItem">
-                <label for="c#">C#</label>
-                <label for="c#">20%</label>
-            </div>
-            <progress id="c#" max="100" value="20">20%</progress>
-        </div>
-    </div>
-
-    <div class="projectsSection">
-        <h2><hr class="divider"/>Projects<hr class="divider"/></h2>
-        <div class="projectContainer">
-            <div class="projectItem">
-                <h3>Personal Website (You are here)</h3>
-                <img src="" alt="Personal Site"/>
-                <h4>Virtual Resume</h4>
-            </div>
-            <div class="projectItem">
-                <h3>Personal Playground</h3>
-                <img src="" alt="Personal Playground"/>
-                <h4>Practice and Experimentation</h4>
-            </div>
-            <div class="projectItem">
-                <h3>Coming Soon</h3>
-                <img src="" alt="Coming Soon"/>
-                <h4>Coming Soon</h4>
-            </div>
-        </div>
-    </div>
-
-    <div class="aboutSection">
-        <h2><hr class="divider"/>About Me<hr class="divider"/></h2>
-        <p>INSERT ABOUT EXERPT HERE</p>
-        <h2>Click Here to Learn More About Me</h2>
-    </div>
-
-    <div class="contactSection">
-        <div class="contactContainer">
-            <div class="contactColumn">
-                <div class="contactItemEmail">
-                    <h3>Email: <br /><a href="mailto:kalebspreckelmeyer@gmail.com?subject=Let%27s%20get%20into%20contact%21">kalebspreckelmeyer@gmail.com</a></h3>
+    
+        <div class="educationSection">
+            <h2>
+                <hr class="divider" />Education
+                <hr class="divider" />
+            </h2>
+            <div class="exampleContainer">
+                <div class="exampleItem">
+                    <h3>JRT High School</h3>
+                    <img src="" alt="JRT High" />
+                    <h4>Completed</h4>
                 </div>
-                <div class="contactItemPhone">
-                    <h3>Phone Number: <br /><a href="tel:8046907348">804-690-7348</a></h3>
+                <div class="exampleItem">
+                    <h3>Reynolds Community College</h3>
+                    <img src="" alt="JRT High" />
+                    <h4>Completed</h4>
+                </div>
+                <div class="exampleItem">
+                    <h3>Missouri Science and Technology</h3>
+                    <img src="" alt="JRT High" />
+                    <h4>Applied</h4>
                 </div>
             </div>
-            <div class="contactRow">
-                <a href="https://github.com/KalebSpreckelmeyer" alt="Github"><img src="" alt="Github"></a>
-                <a href="https://www.linkedin.com/in/kaleb-spreckelmeyer-1ab43027a" alt="LinkedIn"><img src="" alt="LinkedIn"></a>
+        </div>
+    
+        <div class="skillsSection">
+            <h2>
+                <hr class="divider" />Skills
+                <hr class="divider" />
+            </h2>
+            <div class="skillBox">
+                <div class="skillItem">
+                    <label for="html">HTML</label>
+                    <label for="html">60%</label>
+                </div>
+                <progress id="html" max="100" value="60">60%</progress>
+            </div>
+            <div class="skillBox">
+                <div class="skillItem">
+                    <label for="css">CSS</label>
+                    <label for="css">40%</label>
+                </div>
+                <progress id="css" max="100" value="40">40%</progress>
+            </div>
+            <div class="skillBox">
+                <div class="skillItem">
+                    <label for="javaScript">JavaScript</label>
+                    <label for="javaScript">10%</label>
+                </div>
+                <progress id="javaScript" max="100" value="10">10%</progress>
+            </div>
+            <div class="skillBox">
+                <div class="skillItem">
+                    <label for="c#">C#</label>
+                    <label for="c#">20%</label>
+                </div>
+                <progress id="c#" max="100" value="20">20%</progress>
+            </div>
+        </div>
+    
+        <div class="projectsSection">
+            <h2>
+                <hr class="divider" />Projects
+                <hr class="divider" />
+            </h2>
+            <div class="projectContainer">
+                <div class="projectItem">
+                    <h3>Personal Website (You are here)</h3>
+                    <img src="" alt="Personal Site" />
+                    <h4>Virtual Resume</h4>
+                </div>
+                <div class="projectItem">
+                    <h3>Personal Playground</h3>
+                    <img src="" alt="Personal Playground" />
+                    <h4>Practice and Experimentation</h4>
+                </div>
+                <div class="projectItem">
+                    <h3>Coming Soon</h3>
+                    <img src="" alt="Coming Soon" />
+                    <h4>Coming Soon</h4>
+                </div>
+            </div>
+        </div>
+    
+        <div class="aboutSection">
+            <h2>
+                <hr class="divider" />About Me
+                <hr class="divider" />
+            </h2>
+            <p>INSERT ABOUT EXERPT HERE</p>
+            <h2>Click Here to Learn More About Me</h2>
+        </div>
+    
+        <div class="contactSection">
+            <div class="contactContainer">
+                <div class="contactColumn">
+                    <div class="contactItemEmail">
+                        <h3>Email: <br /><a
+                                href="mailto:kalebspreckelmeyer@gmail.com?subject=Let%27s%20get%20into%20contact%21">kalebspreckelmeyer@gmail.com</a>
+                        </h3>
+                    </div>
+                    <div class="contactItemPhone">
+                        <h3>Phone Number: <br /><a href="tel:8046907348">804-690-7348</a></h3>
+                    </div>
+                </div>
+                <div class="contactRow">
+                    <a href="https://github.com/KalebSpreckelmeyer" alt="Github"><img src="" alt="Github"></a>
+                    <a href="https://www.linkedin.com/in/kaleb-spreckelmeyer-1ab43027a" alt="LinkedIn"><img src=""
+                            alt="LinkedIn"></a>
+                </div>
             </div>
         </div>
     </div>
+    
 </body>
 <footer>
 
 </footer>
-

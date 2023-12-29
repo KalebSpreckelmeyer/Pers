@@ -1,0 +1,120 @@
+/* color palette */
+
+/* https://goodpalette.io/0d7ad9-e62930-aaaeb3 */
+    
+/* ---- Desktop Styling ---- */
+
+
+/* general styling */
+*{
+    font-family: Verdana, sans-serif;
+}
+/* navbar styling */
+.stickyNavBar{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E9F0EE;
+    margin-bottom: 1rem;
+    z-index: 10;
+}
+.leftName{
+    font-size: 2rem;
+    padding: 1rem;
+    color: #56788C;
+    margin-left: 2rem;
+}
+
+.stickyNavBar li{
+    display: inline;
+    padding: 1rem;
+    color: #56788C;
+}
+.stickyNavBar ul{
+    margin-right: 2rem;
+}
+.stickyNavBar a:hover{
+    color: #FC4B3D;
+}
+/* This div offests the rest of the content under the header
+so the header won't cover it */
+.offSetBody{
+    position: relative;
+    top: 5rem;
+}
+/* intro section styling */
+.introSection{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.introSection h1{
+    padding-right: 4rem;
+}
+.introSection img{
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+}
+/* education section styling */
+
+/* skills section styling */
+
+/* projects section */
+
+/* about exerpt section */
+
+/* contact section */
+
+/* footer styling */
+
+
+/* ---- Tablet Styling ----*/
+
+
+/* general styling */
+
+/* navbar styling */
+
+/* intro section styling */
+
+/* education section styling */
+
+/* skills section styling */
+
+/* projects section */
+
+/* about exerpt section */
+
+/* contact section */
+
+/* footer styling */
+
+
+/* ---- Mobile Styling ----*/
+
+
+/* general styling */
+
+/* navbar styling */
+
+/* intro section styling */
+
+/* education section styling */
+
+/* skills section styling */
+
+/* projects section */
+
+/* about exerpt section */
+
+/* contact section */
+
+/* footer styling */
