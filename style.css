@@ -8,6 +8,21 @@
 /* general styling */
 *{
     font-family: Verdana, sans-serif;
+    color: #003B53;
+}
+body{
+    background-color: #E5E7EA;
+}
+.sectionDivider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divider{
+    display: inline;
+    border-bottom: black 2px solid;
+    width: 40%;
+    margin: 2rem;
 }
 /* navbar styling */
 .stickyNavBar{
@@ -18,33 +33,38 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #E9F0EE;
+    background-color: #0D7AD9;
     margin-bottom: 1rem;
     z-index: 10;
+}
+.stickyNavBar a{
+    color: #F2F6FF;
 }
 .leftName{
     font-size: 2rem;
     padding: 1rem;
-    color: #56788C;
+    color: #F2F6FF;
     margin-left: 2rem;
 }
-
+span{
+    color: #4395EF;
+}
 .stickyNavBar li{
     display: inline;
     padding: 1rem;
-    color: #56788C;
+    color: #F2F6FF;
 }
 .stickyNavBar ul{
     margin-right: 2rem;
 }
 .stickyNavBar a:hover{
-    color: #FC4B3D;
+    color: #001D26;
 }
 /* This div offests the rest of the content under the header
 so the header won't cover it */
 .offSetBody{
     position: relative;
-    top: 5rem;
+    top: 7rem;
 }
 /* intro section styling */
 .introSection{
@@ -54,9 +74,15 @@ so the header won't cover it */
     margin: 0 auto;
     justify-content: center;
     align-items: center;
+    background-color: #F2F6FF;
+    padding: 10rem 0rem;
+    width: 90%;
+    height: 50%;
+    border-radius: 1rem;
 }
 .introSection h1{
     padding-right: 4rem;
+    font-size: 3.5rem;
 }
 .introSection img{
     width: 20%;
@@ -64,9 +90,64 @@ so the header won't cover it */
     border-radius: 50%;
 }
 /* education section styling */
-
+.educationContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 90%;
+    height: 30rem;
+    margin: 0 auto;
+}
+.educationItem{
+    background-color: #F2F6FF;
+    border-radius: 5%;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.educationItem img{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 5%;
+}
+.educationItem h3{
+    color: #4395EF;
+}
 /* skills section styling */
-
+.skillContainer{
+    width: 50%;
+    margin: 0 auto;
+    background-color: #F2F6FF;
+    padding: 3rem;
+    border-radius: 1rem;
+}
+.skillBox{
+    padding: 1rem;
+    background-color: #F2F6FF;
+}
+.skillBox label{
+    font-size: 1.3rem;
+    color: #003B53;
+}
+progress {
+    border-radius: 7px; 
+    width: 100%;
+    height: 1rem;
+    box-shadow: 1px 1px 4px rgba( 0, 0, 0, 0.2 );
+  }
+  progress::-webkit-progress-bar {
+    background-color: #B9D2FE;
+    border-radius: 7px;
+  }
+  progress::-webkit-progress-value {
+    background-color: #7EB2FA;
+    border-radius: 7px;
+  }
 /* projects section */
 
 /* about exerpt section */
