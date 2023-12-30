@@ -224,7 +224,17 @@ both places instead of copying and pasting it */
     text-align: center;
 }
 /* footer styling */
-
+footer{
+    /* position is relative to account for the main body being offset */
+    position: relative;
+    top: 8rem;
+    text-align: center;
+    background-color: #D1D3D7;
+    padding: .5rem;
+    margin-top: 2rem;
+    width: 100%;
+    background-size: 100% 100%;
+}
 
 /* ---- Tablet Styling ----*/
 
