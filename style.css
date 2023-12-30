@@ -17,6 +17,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 .divider{
     display: inline;
@@ -183,9 +184,45 @@ both places instead of copying and pasting it */
     color: #4395EF;
 }
 /* about exerpt section */
-
+.aboutContainer{
+    background-color: #F2F6FF;
+    border-radius: 1rem;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem;
+}
+.aboutContainer h2{
+    text-align: start;
+}
 /* contact section */
-
+.contactContainer{
+    background-color: #F2F6FF;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.contactRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 50%;
+    gap: 2rem;
+}
+.contactRow a{
+    overflow: hidden;
+    width: 50%;
+}
+.contactRow img{
+    width: 8rem;
+}
+.contactRow h3{
+    text-align: center;
+}
 /* footer styling */
 
 
